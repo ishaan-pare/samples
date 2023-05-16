@@ -1,0 +1,108 @@
+.banner {
+  display: flex;
+  box-shadow: 0px 0px 2px;
+  background-color: white;
+}
+.banner .banner-childA {
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.banner .banner-childA .banner-childA-img img {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 100%;
+}
+.banner .banner-childA .banner-childA-rating {
+  text-align: center;
+  font-weight: 500;
+  color: blueviolet;
+}
+.banner .banner-childA .banner-childA-rating span {
+  font-weight: 100;
+  font-size: small;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.banner .banner-childB .banner-childB-head {
+  font-size: x-large;
+  font-weight: bold;
+  padding: 1rem 0 0 0;
+}
+.banner .banner-childB .banner-childB-head span:first-child {
+  color: gray;
+  font-size: x-large;
+}
+.banner .banner-childB .banner-childB-head span {
+  color: gray;
+  font-size: medium;
+}
+.banner .banner-childB .banner-childB-body {
+  margin: 0.7rem 0 0 0;
+  width: 80%;
+  color: gray;
+}
+.banner .banner-childB .banner-childB-body span {
+  color: blueviolet;
+  font-weight: 600;
+  opacity: 0.7;
+}
+.banner .banner-childB .banner-childB-subjects {
+  display: flex;
+  margin: 0.3rem 0 0 0;
+}
+.banner .banner-childB .banner-childB-subjects .banner-subject {
+  box-shadow: 0 0 1px blueviolet;
+  color: blueviolet;
+  border-radius: 0.2rem;
+  margin: 0 0.7rem 0 0;
+  padding: 0 1rem 0 1rem;
+}
+.banner .banner-childB .banner-childB-subjects .subject-plus {
+  color: blueviolet;
+}
+.banner .banner-childC {
+  width: 35rem;
+  margin: 0.7rem 0 0 0;
+  padding: 0 1rem 0 0;
+}
+.banner .banner-childC .banner-childC-profile .banner-award-container {
+  float: left;
+  text-align: center;
+}
+.banner .banner-childC .banner-childC-profile .banner-award-container .banner-award {
+  display: flex;
+}
+.banner .banner-childC .banner-childC-profile .banner-award-container .banner-award div {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner .banner-childC .banner-childC-profile .banner-award-container .banner-award div:nth-child(1) {
+  background-color: pink;
+}
+.banner .banner-childC .banner-childC-profile .banner-award-container .banner-award div:nth-child(2) {
+  background-color: yellow;
+}
+.banner .banner-childC .banner-childC-profile .banner-award-container .banner-award div:nth-child(3) {
+  background-color: lightgray;
+}
+.banner .banner-childC .banner-childC-profile .banner-award-container .banner-award div:nth-child(4) {
+  background-color: lightgreen;
+}
+.banner .banner-childC .banner-childC-profile .banner-award-container span {
+  color: palevioletred;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.banner .banner-childC .banner-childC-profile .banner-profile {
+  float: right;
+}
+.banner .banner-childC .banner-childC-profile .banner-profile button {
+  border: none;
+  background-color: blueviolet;
+  height: 1.5rem;
+  padding: 0 0.7rem 0 0.7rem;
+  color: white;
+  border-radius: 1rem;
+}/*# sourceMappingURL=banner.css.map */
