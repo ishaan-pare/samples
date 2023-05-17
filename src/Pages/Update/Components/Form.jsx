@@ -90,7 +90,7 @@ const Form = () => {
                     </div>
                     <div className="form-childB-drop">
                         <div>
-                            Upload Ceritfication
+                            Upload Final Marksheet
                         </div>
                     </div>
                 </div>
