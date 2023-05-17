@@ -1,0 +1,126 @@
+.inputs, .form-container .form .form-childC .form-childC-inputs, .form-container .form .form-childB .form-childB-inputs, .form-container .form .form-childA .form-childA-inputs {
+  display: grid;
+  grid-template-areas: "a a";
+  margin: 2rem 0 3rem 0;
+  font-weight: bold;
+}
+.inputs div, .form-container .form .form-childC .form-childC-inputs div, .form-container .form .form-childB .form-childB-inputs div, .form-container .form .form-childA .form-childA-inputs div {
+  width: 95%;
+  color: gray;
+  font-size: 19px;
+  margin: 1rem 0 0 0;
+}
+.inputs div div, .form-container .form .form-childC .form-childC-inputs div div, .form-container .form .form-childB .form-childB-inputs div div, .form-container .form .form-childA .form-childA-inputs div div {
+  color: #6864ff;
+  border: 2px solid #6864ff;
+  margin: 1rem 0 0 0;
+}
+.inputs div div input, .form-container .form .form-childC .form-childC-inputs div div input, .form-container .form .form-childB .form-childB-inputs div div input, .form-container .form .form-childA .form-childA-inputs div div input {
+  width: 80%;
+  height: 20px;
+  font-size: 19px;
+  padding: 0.8rem;
+  border: none;
+  outline: none;
+}
+
+.drops, .form-container .form .form-childC .form-childC-drop, .form-container .form .form-childB .form-childB-drop {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%' height='100%' fill='none' stroke='gray' stroke-width='4' stroke-dasharray='26%2c 14' stroke-dashoffset='23' stroke-linecap='square'/%3e%3c/svg%3e");
+  height: 25rem;
+  border-radius: 2rem;
+  width: 95%;
+  position: relative;
+}
+.drops div, .form-container .form .form-childC .form-childC-drop div, .form-container .form .form-childB .form-childB-drop div {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  background-color: #6864ff;
+  border-radius: 1rem;
+  color: white;
+  padding: 1rem;
+}
+
+.drop-resp div {
+  left: 30%;
+}
+
+.form-container {
+  width: 100%;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+}
+.form-container .form {
+  width: 70%;
+  margin: auto;
+  margin-top: 6rem;
+}
+.form-container .form .form-childA .form-childA-head {
+  font-weight: bolder;
+  font-size: 24px;
+}
+@media screen and (max-width: 800px) {
+  .form-container .form .form-childA .form-childA-inputs {
+    display: block;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 0;
+  }
+  .form-container .form .form-childA .pen {
+    visibility: hidden;
+  }
+}
+.form-container .form .form-childB .form-childB-head {
+  font-weight: bolder;
+  font-size: 24px;
+}
+@media screen and (max-width: 800px) {
+  .form-container .form .form-childB .form-childB-drop div {
+    left: 20%;
+  }
+  .form-container .form .form-childB .form-childB-inputs {
+    display: block;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 0;
+  }
+}
+.form-container .form .form-childC {
+  margin-top: 3rem;
+}
+.form-container .form .form-childC .form-childC-head {
+  font-weight: bolder;
+  font-size: 24px;
+}
+@media screen and (max-width: 800px) {
+  .form-container .form .form-childC .form-childC-drop div {
+    left: 20%;
+  }
+  .form-container .form .form-childC .form-childC-inputs {
+    display: block;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 0;
+  }
+}
+.form-container .form .form-childD {
+  margin: 1rem 0 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+}
+.form-container .form .form-childD button {
+  border: none;
+  font-size: 16px;
+  justify-content: center;
+  padding: 10px 30px;
+  background-color: #6864ff;
+  border: 3px solid #6864ff;
+  border-radius: 0.8rem;
+  color: white;
+}
+.form-container .form .form-childD #back {
+  background-color: white;
+  color: #6864ff;
+}/*# sourceMappingURL=form.css.map */

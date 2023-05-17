@@ -1,0 +1,107 @@
+@import "Global";
+
+.form-container {
+    width: 100%;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+
+    .form {
+        width: 70%;
+        margin: auto;
+        margin-top: 6rem;
+        .form-childA {
+            .form-childA-head {
+                font-weight: bolder;
+                font-size: 24px;
+            }
+            .form-childA-inputs {
+                @extend .inputs;
+            }
+
+            @media screen and (max-width: 800px) {
+                .form-childA-inputs {
+                    display: block;
+                    width: fit-content;
+                    padding: 0;
+
+                }
+                .pen {
+                    visibility: hidden;
+                }
+            }
+        }
+        .form-childB {
+            .form-childB-head {
+                font-weight: bolder;
+                font-size: 24px;
+            }
+            .form-childB-inputs {
+                @extend .inputs;
+            }
+            .form-childB-drop {
+                @extend .drops;
+            }
+
+            @media screen and (max-width: 800px) {
+                .form-childB-drop {
+                    div {
+                        left: 20%;
+                    }
+                }
+                .form-childB-inputs {
+                    display: block;
+                    width: fit-content;
+                    padding: 0;
+                }
+            }
+        }
+        .form-childC {
+            margin-top: 3rem;
+
+            .form-childC-head {
+                font-weight: bolder;
+                font-size: 24px;
+            }
+            .form-childC-inputs {
+                @extend .inputs;
+            }
+            .form-childC-drop {
+                @extend .drops;
+            }
+            @media screen and (max-width: 800px) {
+                .form-childC-drop {
+                    div {
+                        left: 20%;
+                    }
+                }
+                .form-childC-inputs {
+                    display: block;
+                    width: fit-content;
+                    padding: 0;
+                }
+            }
+        }
+        .form-childD {
+            margin: 1rem 0 2rem 0;
+            display: flex;
+            justify-content: space-between;
+            width: 95%;
+            button {
+                border: none;
+                font-size: 16px;
+                justify-content: center;
+                padding: 10px 30px;
+                background-color: #6864ff;
+                border: 3px solid #6864ff;
+                border-radius: 0.8rem;
+                color: white;
+            }
+            #back {
+                background-color: white;
+                color: #6864ff;
+            }
+           
+        }
+    }
+}
